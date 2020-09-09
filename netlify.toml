@@ -1,0 +1,56 @@
+[build]
+  command = "yarn run build"
+  functions = ""
+  publish = "./public/"
+  base = ""
+
+[[redirects]]
+  from = "/property/:id"
+  to = "/property/PAIG/:id"
+  status = 301
+  force = true
+
+[build.environment]
+  YARN_VERSION="1.22.4"
+  NODE_VERSION="12.16.1"
+  NODE_ENV = "production"
+  YARN_FLAGS = "--frozen-lockfile"
+
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"
+
+[[plugins]]
+  package = "./plugins/netlify-plugin-cache-node-modules"
+
+# Production context: All deploys from the main
+# repository branch will inherit these settings.
+[context.production]
+  command = "yarn run build"
+  publish = "./public/"
+  [context.production.environment]
+    SITE_URL="https://kenekt.com.au"
+    PRISMIC_URL="https://narrabeenkenekt.prismic.io/graphql"
+    LOCALES="en-au"
+    FAVICON_ICON_URL="/images/favicon.png"
+    AUTHENTICATE = "false"
+    AGENCY = "PAIG"
+  YARN_VERSION="1.22.4"
+    NODE_VERSION="12.16.1"
+    NPM_VERSION="6.14.2"
+    GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES="true"
+    WEBSITE_GIT_LOG="Not showing logs"
+    NODE_ENV="production"
+    KENEKT_API_KEY="64621A83B989277C8BED612AFDC2D0C0709DDC31"
+
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = true
+[build.processing.images]
+  compress = true

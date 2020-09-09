@@ -1,0 +1,29 @@
+{
+  "name": "KenektSite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Prabin Deka",
+  "license": "MIT",
+  "scripts": {
+    "update": "rm -rf node_modules/gatsby-theme-* yarn.lock package-lock.json ./public ./.cache && yarn install",
+    "build": "chmod +x ./node_modules/gatsby-cli/lib/index.js && ./node_modules/gatsby-cli/lib/index.js build --log-pages"
+  },
+  "dependencies": {
+    "gatsby-theme-narrabeen": "2.0.0-alpha.5",
+    "gatsby": "2.23.23",
+    "gatsby-source-prismic-graphql": "3.6.2"
+  },
+  "devDependencies": {
+    "yargs": "~15.3.1"
+  },
+  "resolutions": {
+    "babel-preset-gatsby": "0.5.1",
+    "@babel/core": "7.0.0",
+    "graphql": "14.6.0",
+    "gatsby-source-prismic-graphql": "3.6.2",
+    "gatsby-source-graphql-universal": "3.3.0",
+    "gatsby": "2.23.23",
+    "gatsby-cli": "2.12.60"
+  }
+
+}
