@@ -9,7 +9,7 @@
     "build": "chmod +x ./node_modules/gatsby-cli/lib/index.js && ./node_modules/gatsby-cli/lib/index.js build --log-pages"
   },
   "dependencies": {
-    "gatsby-theme-narrabeen": "2.0.0-alpha.8",
+    "gatsby-theme-narrabeen": "2.0.0-alpha.13",
     "gatsby": "2.23.23",
     "gatsby-source-prismic-graphql": "3.6.2"
   },
