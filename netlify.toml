@@ -41,7 +41,7 @@
     GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES="true"
     WEBSITE_GIT_LOG="Not showing logs"
     NODE_ENV="production"
-    KENEKT_API_KEY="64621A83B989277C8BED612AFDC2D0C0709DDC31"
+    KENEKT_API_KEY="do not add the api key here"
 
 [build.processing]
   skip_processing = false
