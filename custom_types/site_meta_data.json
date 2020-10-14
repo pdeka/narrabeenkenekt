@@ -240,7 +240,7 @@
     "transparent_navigation_bar" : {
       "type" : "Boolean",
       "config" : {
-        "default_value" : false,
+        "default_value" : true,
         "label" : "transparent navigation bar (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
@@ -365,7 +365,7 @@
       "type" : "Select",
       "config" : {
         "options" : [ "false", "true" ],
-        "default_value" : "true",
+        "default_value" : "false",
         "label" : "strategy type disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
@@ -381,7 +381,7 @@
       "type" : "Select",
       "config" : {
         "options" : [ "false", "true" ],
-        "default_value" : "true",
+        "default_value" : "false",
         "label" : "b2b partner disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
