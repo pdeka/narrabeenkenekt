@@ -28,7 +28,6 @@
             "name" : "full",
             "display" : "Full"
           } ],
-          "embed" : [ ],
           "video" : [ ],
           "documents" : [ ],
           "multi_image" : [ ],
@@ -50,7 +49,8 @@
           "external_widget" : [ ],
           "featured_case_study" : [ ],
           "multi_address_map": [ ],
-          "map_section" : [ ]
+          "map_section" : [ ],
+          "property_search_with_map" : [ ]
         },
         "choices" : {
           "text" : {
@@ -154,23 +154,6 @@
                 "config" : {
                   "label" : "external video link",
                   "placeholder" : "external video link"
-                }
-              }
-            },
-            "repeat" : { }
-          },
-          "embed" : {
-            "type" : "Slice",
-            "fieldset" : "Embed",
-            "description" : "Embed Iframe",
-            "icon" : "featured_video",
-            "display" : "list",
-            "non-repeat" : {
-              "embed_link" : {
-                "type" : "Embed",
-                "config" : {
-                  "label" : "embed link",
-                  "placeholder" : "embed link"
                 }
               }
             },
@@ -361,10 +344,11 @@
             "icon" : "wrap_text",
             "display" : "list",
             "non-repeat" : {
-              "header" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "header"
+              "featured_property_header": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph, strong, em",
+                  "label": "featured property header"
                 }
               },
               "agency_id" : {
@@ -379,15 +363,6 @@
                 "config": {
                   "label": "see more link",
                   "placeholder": "i.e. /properties"
-                }
-              }
-            },
-            "repeat" : {
-              "property_id" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "property_id",
-                  "placeholder" : "i.e. 6802"
                 }
               }
             }
@@ -783,13 +758,6 @@
                   "label" : "property search header",
                   "placeholder" : "header"
                 }
-              },
-              "summary" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "summary",
-                  "placeholder" : "summary"
-                }
               }
             },
             "repeat" : { }
@@ -849,7 +817,23 @@
             "description": "map with all properties in cluster",
             "icon": "zoom_out_map",
             "display": "list",
-            "non-repeat": {},
+            "non-repeat": {
+              "multi_address_map_header": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, strong, em",
+                  "label": "multi address map header",
+                  "placeholder": "i.e. header"
+                }
+              },
+              "multi_address_map_summary": {
+                "type": "Text",
+                "config": {
+                  "label": "multi address map summary",
+                  "placeholder": "i.e. summary"
+                }
+              }
+            },
             "repeat": {}
           },
           "map_section" : {
@@ -866,6 +850,15 @@
                 }
               }
             },
+            "repeat" : { }
+          },
+          "property_search_with_map" : {
+            "type" : "Slice",
+            "fieldset" : "Property Search With Map",
+            "description" : "proeprty search with map",
+            "icon" : "youtube_searched_for",
+            "display" : "list",
+            "non-repeat" : { },
             "repeat" : { }
           }
         }
