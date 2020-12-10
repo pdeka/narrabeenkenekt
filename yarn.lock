@@ -6254,10 +6254,10 @@ gatsby-telemetry@^1.3.18, gatsby-telemetry@^1.3.19, gatsby-telemetry@^1.3.25:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-narrabeen@2.0.0-alpha.46:
-  version "2.0.0-alpha.46"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-narrabeen/-/gatsby-theme-narrabeen-2.0.0-alpha.46.tgz#5f1ed8584be366b73e16b58dbf4675f1cd084faf"
-  integrity sha512-aRPSYvwrK2ntbeeNMNaO1oK6xCvMkxVpeTWg7BhEeV03qslzgurJeoWnnXjjYE3c5bokTpoYpyCeP2kbvJZ0zw==
+gatsby-theme-narrabeen@2.0.0-alpha.47:
+  version "2.0.0-alpha.47"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-narrabeen/-/gatsby-theme-narrabeen-2.0.0-alpha.47.tgz#cb6c50e0f3ea2a7b1d033b1828a2792cd5a35cb8"
+  integrity sha512-jYCF1oSs39DrM9XTchlhF28JHXzsBaJec/5o/ZxzJrkmlmoIgqR/PEG74SrVH8g89ICqtiZsX0JI4q0m1Dn5Yw==
   dependencies:
     "@chargebee/chargebee-js-react-wrapper" "^0.2.1"
     "@reach/router" "^1.3.3"
@@ -6277,7 +6277,7 @@ gatsby-theme-narrabeen@2.0.0-alpha.46:
     gatsby-plugin-sass "^2.0.11"
     html-react-parser "^0.9.1"
     jquery "^3.4.1"
-    kenekt-helper "^2.0.0-alpha.19"
+    kenekt-helper "^2.0.0-alpha.20"
     kenekt-i18n "^1.0.0-alpha.0"
     kenekt-site-configuration "^2.0.0-alpha.7"
     lodash "~4.17.15"
@@ -8346,10 +8346,10 @@ jsx-ast-utils@^2.4.1:
     array-includes "^3.1.1"
     object.assign "^4.1.1"
 
-kenekt-helper@^2.0.0-alpha.19:
-  version "2.0.0-alpha.19"
-  resolved "https://registry.yarnpkg.com/kenekt-helper/-/kenekt-helper-2.0.0-alpha.19.tgz#34cb2546cd212a749d2102143a06b743be65a176"
-  integrity sha512-LmJI+MbhcQePhWHKDeJ7hSxZg76z8ebNoCNVgKjubZleEoegmQcIxiY3+NqVLwKXZ0egmRQCQu5Qiw2AQwGYEw==
+kenekt-helper@^2.0.0-alpha.20:
+  version "2.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/kenekt-helper/-/kenekt-helper-2.0.0-alpha.20.tgz#85d859c56945343cc7ef8a1b5c1bba454331a6fe"
+  integrity sha512-Ic5egzjMqAlIjSI0B7RNbhoHRMUDkb35KwgpA14hd3/aSw3y4utUqagiXfBsNBI1c4QRUm1SgvuV/p+6Fo4YmQ==
   dependencies:
     "@reach/router" "^1.3.3"
     axios "~0.18.0"
