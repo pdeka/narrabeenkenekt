@@ -331,8 +331,8 @@
     "property_type" : {
       "type" : "Select",
       "config" : {
-        "options" : [ "ALL", "House", "Terrace", "Studio", "House + Granny Flat", "Project", "Dual Dwelling House", "Build Contract", "Duplex", "Unit", "Land", "Townhouse" ],
-        "default_value" : "ALL",
+        "options" : [ "House", "Terrace", "Studio", "House + Granny Flat", "Project", "Dual Dwelling House", "Build Contract", "Duplex", "Unit", "Land", "Townhouse" ],
+        "default_value" : "Project",
         "label" : "property type (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
