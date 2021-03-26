@@ -6254,10 +6254,10 @@ gatsby-telemetry@^1.3.18, gatsby-telemetry@^1.3.19, gatsby-telemetry@^1.3.25:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-narrabeen@2.0.0-alpha.55:
-  version "2.0.0-alpha.55"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-narrabeen/-/gatsby-theme-narrabeen-2.0.0-alpha.55.tgz#9da55fcbd92f6ffb3001805b1864803821cd02e8"
-  integrity sha512-0Ko1yFU46Oxw0ccpLMaNCylzdBCwuLSKGACnTf/P4g2NJH5Fkk+tcbAUCJtAOi007T7iSDZfbVNOLDcCbuX8Zw==
+gatsby-theme-narrabeen@2.0.0-alpha.58:
+  version "2.0.0-alpha.58"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-narrabeen/-/gatsby-theme-narrabeen-2.0.0-alpha.58.tgz#ccbef94b18f995f2b10b0f384d8e6f0154f86530"
+  integrity sha512-2R6AAela0yEnFLUuAPbU1MGkTtyyin6CFAg+ENSTTWbHFm/G7IVQgGQSE/EjbhTZcVmEKytZlFoB9n1cqKEiOQ==
   dependencies:
     "@chargebee/chargebee-js-react-wrapper" "^0.2.1"
     "@reach/router" "^1.3.3"
@@ -6277,9 +6277,9 @@ gatsby-theme-narrabeen@2.0.0-alpha.55:
     gatsby-plugin-sass "^2.0.11"
     html-react-parser "^0.9.1"
     jquery "^3.4.1"
-    kenekt-helper "^2.0.0-alpha.26"
+    kenekt-helper "^2.0.0-alpha.27"
     kenekt-i18n "^1.0.0-alpha.0"
-    kenekt-site-configuration "^2.0.0-alpha.7"
+    kenekt-site-configuration "^2.0.0-alpha.8"
     lodash "~4.17.15"
     node-sass "^4.11.0"
     prismic-javascript "^2.0.1"
@@ -8346,10 +8346,10 @@ jsx-ast-utils@^2.4.1:
     array-includes "^3.1.1"
     object.assign "^4.1.1"
 
-kenekt-helper@^2.0.0-alpha.26:
-  version "2.0.0-alpha.26"
-  resolved "https://registry.yarnpkg.com/kenekt-helper/-/kenekt-helper-2.0.0-alpha.26.tgz#0d0180daf811bd597aaf15dbed2939e57d25282d"
-  integrity sha512-Y1IwEzvTM8PfdA07EaIQdPAQkAk4WfyxzNGLPgx4mERaS+mI/vtj9xyLKIuX88q35LNu7JIgm54Fh6AWxub54w==
+kenekt-helper@^2.0.0-alpha.27:
+  version "2.0.0-alpha.27"
+  resolved "https://registry.yarnpkg.com/kenekt-helper/-/kenekt-helper-2.0.0-alpha.27.tgz#77c8e1b59cd98da92442369c7b4ba689ca031bc5"
+  integrity sha512-dI+ypSIQs7swf2PzZ6ZR8XhJfYUz8o1BzISyH+M5KkwvP8/nSJxcQFX5RyAHwLueQGGdu5QQeFN/AQYX7CX2Fg==
   dependencies:
     "@reach/router" "^1.3.3"
     axios "~0.18.0"
@@ -8374,10 +8374,10 @@ kenekt-i18n@^1.0.0-alpha.0:
   dependencies:
     react "^16.2.0"
 
-kenekt-site-configuration@^2.0.0-alpha.7:
-  version "2.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/kenekt-site-configuration/-/kenekt-site-configuration-2.0.0-alpha.7.tgz#d260c6eeaaa5260cf6c0ce06552fcce1fbedd2b2"
-  integrity sha512-J+0glY1bFPI/uRaU9yO+A0TZB/jeI+DjjawKOvJa9GpQPZuIkc+7fzWkUFjqzgUyJTWHfL1ZPmuPV4mbc0e+xg==
+kenekt-site-configuration@^2.0.0-alpha.8:
+  version "2.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/kenekt-site-configuration/-/kenekt-site-configuration-2.0.0-alpha.8.tgz#1baa3775e3f34910e6c8b766a801328431d4c625"
+  integrity sha512-kr61TR0WOW3tslgnmk16a9lTeAngTJ/XXUjL8Ttl6N3LRTgQ2Y498kRNypZzKnZrNx1/r2BGmDTsBZA9DTMepQ==
   dependencies:
     lodash "~4.17.15"
     prismic-javascript "^2.0.1"
